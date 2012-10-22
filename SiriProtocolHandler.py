@@ -286,7 +286,8 @@ class SiriProtocolHandler(Siri):
 
         elif ObjectIsCommand(plist, CreateSessionInfoRequest):
             # how does a positive answer look like?
-            #createSessionInfoRequest = CreateSessionInfoRequest(plist)
+            # you need to uncomment the next line !
+            createSessionInfoRequest = CreateSessionInfoRequest(plist)
             
             #success = CreateSessionInfoResponse(createSessionInfoRequest.aceId)
             #success.sessionInfo = biplist.Data("\x01\x02BLABLABLBALBALBALBALBALBALBALBA")
